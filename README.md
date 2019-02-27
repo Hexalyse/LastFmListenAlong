@@ -1,8 +1,8 @@
-# LastFmListenAlong - A program to listen along a Last.fm user with Spotify
+# LastFmListenAlong - A Python program to listen along a Last.fm user with Spotify
 
 ## Description
 
-LastFmListenAlong is a program allowing you to listen along a Last.fm user, playing the songs the user is listening to on Spotify, in real time.
+LastFmListenAlong is a program made in Python, allowing you to listen along a Last.fm user, by playing the songs the user is listening to on Spotify, in real time.
 
 ## Configuration
 
