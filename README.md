@@ -25,10 +25,15 @@ Note that, at the date this program was created, the spotipy version installed b
 You may need to get the last version of spotipy yourself here : [plamere/spotipy](https://github.com/plamere/spotipy) and place it in the current directory.
 
 
-## Quick Start
+## Running
 
 Once everything is configured, you just have to run the program with two parameters:
 
 ```bash
 python listen.py lastfm_user_to_listen_along your_spotify_username
 ```
+
+
+## License
+
+This program is released under no license. Do whatever you want with it. Share it, copy it, play with it, eat it. 
