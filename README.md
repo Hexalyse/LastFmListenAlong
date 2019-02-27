@@ -33,6 +33,10 @@ Once everything is configured, you just have to run the program with two paramet
 python listen.py lastfm_user_to_listen_along your_spotify_username
 ```
 
+## Blog article about it
+
+If you're curious you can read a blog article on how I came up with this idea on my blog: [here](https://hexaly.se/2019/02/27/how-to-listen-along-a-last-fm-user-on-spotify/).
+
 
 ## License
 
