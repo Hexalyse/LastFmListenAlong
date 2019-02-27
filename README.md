@@ -21,7 +21,7 @@ pip install pylast
 pip install requests
 ```
 
-Note that, at the date this program was created, the spotipy version installed by pip is a bit outdated and do not contain a method we need to play a song on Spotify.
+Note that, at the date this program was created, the spotipy version installed by pip is a bit outdated and do not contain a method we need to play a song on Spotify.   
 You may need to get the last version of spotipy yourself here : [plamere/spotipy](https://github.com/plamere/spotipy) and place it in the current directory.
 
 
