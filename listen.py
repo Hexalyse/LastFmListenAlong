@@ -8,10 +8,10 @@ import pylast
 import spotipy
 import spotipy.util as util
 
-API_KEY = "redacted"
-API_SECRET = "redacted"
-os.environ['SPOTIPY_CLIENT_ID'] = 'redacted'
-os.environ['SPOTIPY_CLIENT_SECRET'] = 'redacted'
+API_KEY = "your_lastfm_api_key"
+API_SECRET = "your_lastfm_api_secret"
+os.environ['SPOTIPY_CLIENT_ID'] = 'your_spotify_api_key'
+os.environ['SPOTIPY_CLIENT_SECRET'] = 'your_spotify_api_secret'
 os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost/'
 
 SESSION_KEY_FILE = ".session_key"
