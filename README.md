@@ -1,4 +1,4 @@
-# LastFmListenAlong - A Python program to listen along a Last.fm user with Spotify
+# LastFmListenAlong
 
 ## Description
 
