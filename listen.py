@@ -106,7 +106,9 @@ if __name__ == "__main__":
         if just_started_playing is True:
             time.sleep(15)
         else:
-            time.sleep(track_duration - 15)
+            wait_time = track_duration - 15
+            wait_time = wait_time if wait_time > 10 else 10
+            time.sleep(wait_time)
 
 
 # End of file
