@@ -82,7 +82,18 @@ if __name__ == "__main__":
                 just_started_playing = True
                 print("User is now listening to: ", new_track)
                 print("Searching for the track on Spotify...")
-                results = sp.search(q=new_track, limit=1, type='track')
+                # Try searching for the song. If we get an exception, try to renew the token
+                while True:
+                    try:
+                        results = sp.search(q=new_track, limit=1, type='track')
+                        break
+                    except spotipy.SpotifyException:
+                        token = util.prompt_for_user_token(args.sp_username, 'streaming user-library-read')
+                        if token:
+                            sp = spotipy.Spotify(auth=token)
+                        else:
+                            print("Can't renew token for", args.sp_username)
+                            exit()
                 # Track found ?
                 if len(results['tracks']['items']) > 0:
                     track = results['tracks']['items'][0]
