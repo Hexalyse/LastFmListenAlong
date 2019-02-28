@@ -80,7 +80,7 @@ if __name__ == "__main__":
             elif new_track != playing_track:
                 playing_track = new_track
                 just_started_playing = True
-                print("User is now listening to: ", new_track)
+                print("\n{} is now listening to: {}".format(args.user, new_track))
                 print("Searching for the track on Spotify...")
                 # Try searching for the song. If we get an exception, try to renew the token
                 while True:
